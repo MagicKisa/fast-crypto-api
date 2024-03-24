@@ -1,0 +1,10 @@
+fastapi                                                                                                                                                              
+pydantic                                                                                                                                                             
+requests                                                                                                                                                             
+fastapi-cache2                                                                                                                                                       
+redis                                                                                                                                                                
+nltk                                                                                                                                                                 
+joblib                                                                                                                                                               
+pandas
+gunicorn
+scikit-learn
