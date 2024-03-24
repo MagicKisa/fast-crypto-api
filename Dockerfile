@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 RUN apt-get update
-RUN apt-get install redis
+RUN apt-get install -y redis
 
 RUN pip install --upgrade pip \
 RUN  && pip install --no-cache-dir --index-url https://pypi.python.org/simple/ -r requirements.txt
